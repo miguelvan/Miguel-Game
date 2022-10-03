@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>PUZZLE GAME</title>
+    <link rel='stylesheet' href='style.css'>
+    <script src='script.js' defer></script>
+
+</head>
+
+<body class='gameBackground'>
+    <!-- this is the container for the left size -->
+    <div class='leftContainer'>
+
+        <div class='gameContainer'></div>
+
+        <h2 class='moveLeft'> MOVES LEFT: &nbsp; <span id='movesLeft'> 0 </span> </h2>
+    </div>
+
+
+    <!-- this is the container for the right side -->
+    <div class='rightContainer'>
+
+        <h2 id='imageGuide'> IMAGE GUIDE</h2>
+        <img class='imageAnswer' src="./assets/WHOLE IMAGE.webp" alt="Answer to the Puzzle">
+
+
+        <div class='buttonRight'>
+            <button id='instructionsBtn'>INSTRUCTIONS</button>
+            &nbsp; &nbsp; &nbsp;
+            <button id='restartBtn'>RESTART</button>
+
+        </div>
+
+    </div>
+
+    <!-- INSTRUCTIONS -->
+
+    <div id='showInstruction'>
+        <img id='instructionImg' src="./assets/instructions.webp" alt="instructions">
+
+        <h2 id='headerInstruction'>INSTRUCTIONS</h2>
+
+        <p class='paragraphInstructions'>
+            The 8-puzzle is a sliding puzzle that is played on a 3-by-3 grid with 8 square tiles labeled 1 through 8, plus a blank square. 
+        </p>
+        <p class='paragraphInstructions'>
+            The goal is to rearrange the tiles so that they are in row-major order, using as few moves as possible.
+        </p>
+        <p class='paragraphInstructions'>
+            You are permitted to slide tiles either horizontally or vertically into the blank square. 
+        </p>
+
+        <button id='startButton'> START GAME </button>
+
+    </div>
+
+
+</body>
+
+</html>
