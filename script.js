@@ -188,7 +188,7 @@ function getImage(){
     
     for(let count =0; count < 9; count++){
 
-    imgSource.push(`${ imgId[count].src}`.charAt(29));
+    imgSource.push(`${ imgId[count].src}`.charAt(47));
     }
     return imgSource;
     console.log(imgSource)
